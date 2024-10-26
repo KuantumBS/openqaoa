@@ -18,7 +18,7 @@ requirements = [
 
 setup(
     name="openqaoa",
-    python_requires=">=3.8, <3.11",
+    python_requires=">=3.8,
     version=version,
     author="Entropica Labs",
     entry_points={"openqaoa.plugins": []},
@@ -32,6 +32,10 @@ setup(
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python :: 3.13",
+        "Programming Language :: Python :: 3.14",
         "Operating System :: OS Independent",
     ],
     keywords="quantum optimisation SDK",
