@@ -18,7 +18,7 @@ requirements = [
 
 setup(
     name="openqaoa",
-    python_requires=">=3.8,
+    python_requires>=3.8,
     version=version,
     author="Entropica Labs",
     entry_points={"openqaoa.plugins": []},
